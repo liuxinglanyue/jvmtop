@@ -1,0 +1,5 @@
+package com.jvmtop;
+
+public enum VMInfoState {
+	INIT, ERROR_DURING_ATTACH, ATTACHED, ATTACHED_UPDATE_ERROR, DETACHED, UNKNOWN_ERROR;
+}
